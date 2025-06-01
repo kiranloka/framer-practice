@@ -2,7 +2,7 @@
 
 import {motion } from "motion/react"
 import ScrollAnimation from "../components/ScrollAnimation.tsx"
-
+import LayoutButton from "../components/LayoutButton.tsx"
 export default function Home() {
   return (
     <>
@@ -16,6 +16,9 @@ export default function Home() {
       </div>
       <div className="h-screen">
         <ScrollAnimation/>
+      </div>
+      <div>
+        <LayoutButton/>
       </div>
     </>
 );
